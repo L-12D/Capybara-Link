@@ -82,16 +82,13 @@ jobs:
   
       - name: SSH & deploy
         run: |
+          IMAGE_USER=$(echo "${GITHUB_ACTOR}" | tr '[:upper:]' '[:lower:]')
           ssh -o StrictHostKeyChecking=no \
               -i $SSH_KEY_PATH \
-              root@${{ secrets.PRODUCTION_SSH_HOST }} << 'EOF'
-            cd /root/infomate.club
-            # Login (actor → lowercase)
-            echo "${{ secrets.GHCR_TOKEN }}" | docker login ghcr.io \
-              -u "$(echo "${GITHUB_ACTOR}" | tr '[:upper:]' '[:lower:]')" \
-              --password-stdin
-            # Pull & up
-            docker pull ghcr.io/$(echo "${GITHUB_ACTOR}" | tr '[:upper:]' '[:lower:]')/infomate:${GITHUB_SHA}
-            docker-compose -f docker-compose.production.yml --env-file .env up -d
+              root@${{ secrets.PRODUCTION_SSH_HOST }} "
+            cd /root/infomate.club && \
+            echo '${{ secrets.GHCR_TOKEN }}' | docker login ghcr.io -u $IMAGE_USER --password-stdin && \
+            docker pull ghcr.io/$IMAGE_USER/infomate:${GITHUB_SHA} && \
+            docker-compose -f docker-compose.production.yml --env-file .env up -d && \
             docker system prune --all --force
-          EOF
+          "
