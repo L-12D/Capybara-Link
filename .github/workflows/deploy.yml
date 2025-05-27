@@ -88,7 +88,7 @@ jobs:
               root@${{ secrets.PRODUCTION_SSH_HOST }} "
             cd /root/infomate.club && \
             echo '${{ secrets.GHCR_TOKEN }}' | docker login ghcr.io -u $IMAGE_USER --password-stdin && \
-            docker pull ghcr.io/$IMAGE_USER/infomate:${GITHUB_SHA} && \
+            docker pull ghcr.io/$IMAGE_USER/capybara-link:${GITHUB_SHA} && \
             docker-compose -f docker-compose.production.yml --env-file .env up -d && \
             docker system prune --all --force
           "
