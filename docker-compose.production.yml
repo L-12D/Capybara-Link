@@ -1,7 +1,7 @@
 version: "3"
 services:
   app: &app
-    image: ghcr.io/l-12d/capybara-link:${GITHUB_SHA)
+    image: ghcr.io/l-12d/capybara-link:${GITHUB_SHA}
     command: make docker-run-app
     container_name: infomate_app
     environment:
