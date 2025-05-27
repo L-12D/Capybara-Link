@@ -14,6 +14,8 @@ ALLOWED_HOSTS = ["46.229.214.38", "localhost", "127.0.0.1"]
 INTERNAL_IPS = ["127.0.0.1"]
 STATIC_URL = "/static/"
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
 
 INSTALLED_APPS = [
     "django.contrib.staticfiles",
@@ -24,8 +26,11 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
-    "django.middleware.common.CommonMiddleware",
+    'whitenoise.middleware.WhiteNoiseMiddleware',
+    'django.middleware.common.CommonMiddleware',
+    # если есть другие — добавляй сюда
 ]
+
 
 ROOT_URLCONF = "infomate.urls"
 
