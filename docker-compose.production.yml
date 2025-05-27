@@ -17,7 +17,7 @@ services:
       - .env
     restart: always
     ports:
-      - "127.0.0.1:8816:8816"
+      - "8000:8816"
     logging:
       driver: "json-file"
       options:
