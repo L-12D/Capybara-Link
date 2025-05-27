@@ -6,11 +6,14 @@ from random import random
 import sentry_sdk
 from sentry_sdk.integrations.django import DjangoIntegration
 
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DEBUG = (os.getenv("DEBUG") != "false")  # SECURITY WARNING: don't run with debug turned on in production!
 SECRET_KEY = os.getenv("SECRET_KEY") or "wow so secret"
 ALLOWED_HOSTS = ["46.229.214.38", "localhost", "127.0.0.1"]
 INTERNAL_IPS = ["127.0.0.1"]
+STATIC_URL = "/static/"
+STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 
 INSTALLED_APPS = [
     "django.contrib.staticfiles",
