@@ -58,18 +58,18 @@ boards:
       - name: Писатели (официальные сайты)
         slug: writerof
         feeds:
-          - name: Сэм Хьюз
-            url: qntm.org
-            rss: https://qntm.org/rss
+         - name: Джордж Р. Р. Мартин
+            url: https://georgerrmartin.com/
+            rss: https://georgerrmartin.com/notablog/feed/
           - name: Damien Walter
             url: damiengwalter.com
             rss: https://damiengwalter.com/category/podcast/feed/
-          - name: Джордж Р. Р. Мартин
-            url: https://georgerrmartin.com/
-            rss: https://georgerrmartin.com/notablog/feed/
           - name: Чарльз Стросс
             url: https://www.antipope.org/charlie/blog-static/2024/08/they-dont-make-readers-like-th.html
             rss: http://www.antipope.org/charlie/blog-static/atom.xml
+          - name: Сэм Хьюз (qntm)
+            url: qntm.org
+            rss: https://qntm.org/rss
       - name: Писатели (ТГ)
         slug: writer_tg
         feeds:
