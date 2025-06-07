@@ -328,7 +328,7 @@ boards:
     curator:
       name: "Продуктивность"
       title: "Инструменты и ссылки для продуктивности"
-      avatar: "https://i.pinimg.com/736x/0e/15/9d/0e159d7c399af5767bb711ff3abd9293.jpg"
+      avatar: "https://i.pinimg.com/736x/e7/24/f6/e724f6001f92f9ca9fe8ab6c09918000.jpg"
       bio: "Zettelkasten и разное интересное для повышения эффективности"
     blocks:
       - name: "Zettelkasten"
@@ -387,7 +387,7 @@ boards:
     curator:
       name: "Рациональность и мышление"
       title: "Ресурсы по философии, психологии и мыслям"
-      avatar: "https://i.pinimg.com/736x/31/eb/d2/31ebd2a953d26457204f9a4b5fc11dcd.jpg"
+      avatar: "https://i.pinimg.com/736x/98/78/1b/98781bdaa28eafb4d3c6ed7b382514bc.jpg"
       bio: "Собрание материалов по рациональности, психологии и философии"
     blocks:
       - name: "Все источники"
@@ -419,7 +419,7 @@ boards:
     curator:
       name: "Мастера"
       title: "Авторы и эксперты, за которыми я слежу"
-      avatar: "https://i.pinimg.com/736x/31/eb/d2/31ebd2a953d26457204f9a4b5fc11dcd.jpg"
+      avatar: "https://i.pinimg.com/736x/bd/c6/b9/bdc6b987348757f81630ec69d0dd0ec8.jpg"
       bio: "Люди, которые делают удивительные вещи в своих областях"
     blocks:
       - name: "Личные мастера"
