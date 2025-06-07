@@ -387,7 +387,7 @@ boards:
     curator:
       name: "Рациональность и мышление"
       title: "Ресурсы по философии, психологии и мыслям"
-      avatar: "https://i.pinimg.com/736x/98/78/1b/98781bdaa28eafb4d3c6ed7b382514bc.jpg"
+      avatar: "https://i.pinimg.com/736x/31/eb/d2/31ebd2a953d26457204f9a4b5fc11dcd.jpg"
       bio: "Собрание материалов по рациональности, психологии и философии"
     blocks:
       - name: "Все источники"
