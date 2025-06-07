@@ -6,7 +6,7 @@ boards:
     curator:
       name: "Геймдизайн"
       title: "Все об индустрии и практике геймдизайна"
-      avatar: "https://i.pinimg.com/736x/59/d3/7d/59d37da40c4f008b4a67654b563575cd.jpg"
+      avatar: ""
       bio: "Подборка источников по геймдизайну: новости, обзоры, скидки, проекты и обучение."
     blocks:
       - name: "Общие новости"
@@ -73,7 +73,7 @@ boards:
     curator:
       name: "Литература"
       title: "Слово и смысл"
-      avatar: "https://i.pinimg.com/736x/3a/a9/3e/3aa93eaabae960569519f8f3db8a8ecd.jpg"
+      avatar: ""
       bio: "Премии, журналы, писатели, блогеры и медиа о книгах и слове."
     blocks:
       - name: "Журналы и альманахи"
@@ -222,7 +222,7 @@ boards:
     curator:
       name: "Персональные"
       title: "Мои источники"
-      avatar: "https://i.pinimg.com/736x/c2/69/d4/c269d42001d0b84db2e11ddae765e7fa.jpg"
+      avatar: ""
       bio: "Сборник медиа, технологий, новостей и вдохновения для личного пользования"
     blocks:
       - name: "Медиа"
@@ -328,7 +328,7 @@ boards:
     curator:
       name: "Продуктивность"
       title: "Инструменты и ссылки для продуктивности"
-      avatar: "https://i.pinimg.com/736x/0e/15/9d/0e159d7c399af5767bb711ff3abd9293.jpg"
+      avatar: ""
       bio: "Zettelkasten и разное интересное для повышения эффективности"
     blocks:
       - name: "Zettelkasten"
@@ -387,7 +387,7 @@ boards:
     curator:
       name: "Рациональность и мышление"
       title: "Ресурсы по философии, психологии и мыслям"
-      avatar: "https://i.pinimg.com/736x/31/eb/d2/31ebd2a953d26457204f9a4b5fc11dcd.jpg"
+      avatar: ""
       bio: "Собрание материалов по рациональности, психологии и философии"
     blocks:
       - name: "Все источники"
@@ -419,7 +419,7 @@ boards:
     curator:
       name: "Мастера"
       title: "Авторы и эксперты, за которыми я слежу"
-      avatar: "https://i.pinimg.com/736x/31/eb/d2/31ebd2a953d26457204f9a4b5fc11dcd.jpg"
+      avatar: ""
       bio: "Люди, которые делают удивительные вещи в своих областях"
     blocks:
       - name: "Личные мастера"
