@@ -8,7 +8,7 @@ boards:
       title: Слово и смысл
       url: by <a href="https://t.me/capybaratext">Олег Ефимов</a> and <a href="https://t.me/CapybaraReview">BOOKHACKING</a>
       avatar: https://i.pinimg.com/736x/3a/a9/3e/3aa93eaabae960569519f8f3db8a8ecd.jpg
-      bio: 'Отслеживаю многое: от критиков до премий и конкурсов. Предложить источники: https://clck.ru/3MW35o'
+      bio: 'Отслеживаю многое: от критиков до премий и конкурсов. <a href="https://clck.ru/3MW35o">Предложить источники</a>'
     blocks:
       - name: 'Самое интересное о литературе '
         slug: bestlit
