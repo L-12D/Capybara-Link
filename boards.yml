@@ -1,448 +1,433 @@
 boards:
-  - name: "Геймдизайн"
-    slug: gamedev
-    is_visible: true
-    is_private: false
-    curator:
-      name: "Геймдизайн"
-      title: "Все об индустрии и практике геймдизайна"
-      avatar: "https://i.pinimg.com/736x/59/d3/7d/59d37da40c4f008b4a67654b563575cd.jpg"
-      bio: "Подборка источников по геймдизайну: новости, обзоры, скидки, проекты и обучение."
-    blocks:
-      - name: "Общие новости"
-        slug: news
-        feeds:
-          - name: "Rock Paper Shotgun"
-            url: https://www.rockpapershotgun.com/
-            rss: https://www.rockpapershotgun.com/
-          - name: "Nordic IGN"
-            url: https://nordic.ign.com/
-            rss: https://nordic.ign.com/
-          - name: "Kotaku"
-            url: https://kotaku.com/
-            rss: https://kotaku.com/
-          - name: "GameDeveloper.com"
-            url: https://www.gamedeveloper.com/
-            rss: https://www.gamedeveloper.com/
-      - name: "Обзоры"
-        slug: reviews
-        feeds:
-          - name: "NightGameCity"
-            url: https://t.me/NightGameCity
-            rss: https://infomate.club/parsing/telegram/NightGameCity?only=text
-          - name: "Core RPG Net"
-            url: https://t.me/core_rpg_net
-            rss: https://infomate.club/parsing/telegram/core_rpg_net?only=text
-      - name: "Раздачи, скидки и подборки"
-        slug: discounts
-        feeds:
-          - name: "GameGiveaway"
-            url: https://t.me/GameGiveaway
-            rss: https://infomate.club/parsing/telegram/GameGiveaway?only=text
-          - name: "Indie Spotlight"
-            url: https://t.me/indiespotlight
-            rss: https://infomate.club/parsing/telegram/indiespotlight?only=text
-      - name: "Студии / проекты"
-        slug: studios
-        feeds:
-          - name: "CatsAndDogsEntertainment"
-            url: https://t.me/catsanddogsentertainment
-            rss: https://infomate.club/parsing/telegram/catsanddogsentertainment?only=text
-          - name: "IgryValery"
-            url: https://t.me/igryvalery
-            rss: https://infomate.club/parsing/telegram/igryvalery?only=text
-          - name: "DreamCraftStudio"
-            url: https://t.me/dreamcraftstudio
-            rss: https://infomate.club/parsing/telegram/dreamcraftstudio?only=text
-      - name: "Обучение"
-        slug: education
-        feeds:
-          - name: "JustGameDesign"
-            url: https://t.me/justGameDesign
-            rss: https://infomate.club/parsing/telegram/justGameDesign?only=text
-          - name: "KojimaCalls"
-            url: https://t.me/kojima_calls
-            rss: https://infomate.club/parsing/telegram/kojima_calls?only=text
-          - name: "ProGameDev"
-            url: https://t.me/progamedev
-            rss: https://infomate.club/parsing/telegram/progamedev?only=text
-  - name: "Литература"
+  - name: Литература
     slug: literature
     is_visible: true
     is_private: false
     curator:
-      name: "Литература"
-      title: "Слово и смысл"
-      avatar: "https://i.pinimg.com/736x/3a/a9/3e/3aa93eaabae960569519f8f3db8a8ecd.jpg"
-      bio: "Премии, журналы, писатели, блогеры и медиа о книгах и слове."
+      name: Литература
+      title: Слово и смысл
+      avatar: https://i.pinimg.com/736x/3a/a9/3e/3aa93eaabae960569519f8f3db8a8ecd.jpg
+      bio: 'Собираю и отслеживаю самые интересные источники о книгах и литературном процессе
+        — от больших издательств и престижных премий до блогеров, журналистов и отдельных авторов.
+        Особое внимание уделяю нехудожественной литературе. Добро пожаловать в мир слова и смысла.
+        К источникам отношусь избирательно. '
     blocks:
-      - name: "Журналы и альманахи"
-        slug: journals
-        feeds:
-          - name: "Moloko News"
-            url: https://t.me/molokonews
-            rss: https://infomate.club/parsing/telegram/molokonews?only=text
-          - name: "Юность Journal"
-            url: https://t.me/unost_journal
-            rss: https://infomate.club/parsing/telegram/unost_journal?only=text
-      - name: "Премии"
-        slug: awards
-        feeds:
-          - view: "feeds/favicons.html"
-            is_parsable: false
-            mix:
-              - https://www.nobelprize.org/prizes/physics/2024/summary
-              - https://thehugoawards.org
-              - https://nebulas.sfwa.org
-              - https://locusmag.com
-      - name: "Писатели и сценаристы"
-        slug: writers
-        feeds:
-          - name: "Tutursaa"
-            url: https://t.me/tutursaa
-            rss: https://infomate.club/parsing/telegram/tutursaa?only=text
-          - name: "Lavenderaccoon"
-            url: https://t.me/lavenderaccoon
-            rss: https://infomate.club/parsing/telegram/lavenderaccoon?only=text
-          - name: "Чертоги Ревердаса"
-            url: https://t.me/chertogi_reverdasa
-            rss: https://infomate.club/parsing/telegram/chertogi_reverdasa?only=text
-          - name: "RagimD"
-            url: https://t.me/RagimD
-            rss: https://infomate.club/parsing/telegram/RagimD?only=text
-          - name: "LiliaKimStory"
-            url: https://t.me/lilia_kim_story
-            rss: https://infomate.club/parsing/telegram/lilia_kim_story?only=text
-          - name: "PoPolochkamAvtoram"
-            url: https://t.me/po_polochkam_avtoram
-            rss: https://infomate.club/parsing/telegram/po_polochkam_avtoram?only=text
-          - name: "Gregor Zamza"
-            url: https://t.me/Gregor_Zamza
-            rss: https://infomate.club/parsing/telegram/Gregor_Zamza?only=text
-          - name: "qntm.org"
-            url: https://qntm.org
-            rss: https://qntm.org
-      - name: "Книжные блогеры"
-        slug: book_bloggers
-        feeds:
-          - name: "Books Reviews"
-            url: https://t.me/books_reviews
-            rss: https://infomate.club/parsing/telegram/books_reviews?only=text
-          - name: "DrinkRead"
-            url: https://t.me/drinkread
-            rss: https://infomate.club/parsing/telegram/drinkread?only=text
-          - name: "Milchin"
-            url: https://t.me/milchin
-            rss: https://infomate.club/parsing/telegram/milchin?only=text
-          - name: "LimonadBook"
-            url: https://t.me/limonadbook
-            rss: https://infomate.club/parsing/telegram/limonadbook?only=text
-          - name: "Школа критики"
-            url: https://t.me/shkola_kritiki
-            rss: https://infomate.club/parsing/telegram/shkola_kritiki?only=text
-          - name: "PalomeHeart"
-            url: https://t.me/palomeheart
-            rss: https://infomate.club/parsing/telegram/palomeheart?only=text
-          - name: "Рюмка Белинского"
-            url: https://t.me/ryumka_belinskogo
-            rss: https://infomate.club/parsing/telegram/ryumka_belinskogo?only=text
-          - name: "ReadOriginal"
-            url: https://t.me/read_original
-            rss: https://infomate.club/parsing/telegram/read_original?only=text
-          - name: "Williwaw Reads"
-            url: https://t.me/williwaw_reads
-            rss: https://infomate.club/parsing/telegram/williwaw_reads?only=text
-          - name: "Prometa"
-            url: https://t.me/prometa
-            rss: https://infomate.club/parsing/telegram/prometa?only=text
-          - name: "StarostinFlix"
-            url: https://t.me/starostinflix
-            rss: https://infomate.club/parsing/telegram/starostinflix?only=text
-          - name: "BookNinja"
-            url: https://t.me/bookninja
-            rss: https://infomate.club/parsing/telegram/bookninja?only=text
-          - name: "Rembodlery"
-            url: https://t.me/rembodlery
-            rss: https://infomate.club/parsing/telegram/rembodlery?only=text
-          - name: "Armenifedor"
-            url: https://t.me/armenifedor
-            rss: https://infomate.club/parsing/telegram/armenifedor?only=text
-      - name: "Публицисты"
-        slug: publicists
-        feeds:
-          - name: "GlebNeznaet"
-            url: https://t.me/glebneznaet
-            rss: https://infomate.club/parsing/telegram/glebneznaet?only=text
-          - name: "Furherring"
-            url: https://t.me/furherring
-            rss: https://infomate.club/parsing/telegram/furherring?only=text
-          - name: "Pechat Sallyks"
-            url: https://t.me/pechat_sallyks
-            rss: https://infomate.club/parsing/telegram/pechat_sallyks?only=text
-          - name: "AleksBessonov"
-            url: https://t.me/AleksBessonov
-            rss: https://infomate.club/parsing/telegram/AleksBessonov?only=text
-          - name: "WickedSoil"
-            url: https://t.me/wickedsoil
-            rss: https://infomate.club/parsing/telegram/wickedsoil?only=text
-      - name: "Издательства"
-        slug: publishers
-        feeds:
-          - name: "Ricochet Press"
-            url: https://t.me/ricochetpress
-            rss: https://infomate.club/parsing/telegram/ricochetpress?only=text
-          - name: "GarageMCA Shop"
-            url: https://t.me/garagemca_shop
-            rss: https://infomate.club/parsing/telegram/garagemca_shop?only=text
-          - name: "Alpina Proza"
-            url: https://t.me/alpinaproza
-            rss: https://infomate.club/parsing/telegram/alpinaproza?only=text
-      - name: "Для писателей"
-        slug: writers_call
-        feeds:
-          - name: "Writers Open Call"
-            url: https://t.me/writersopencall
-            rss: https://infomate.club/parsing/telegram/writersopencall?only=text
-          - name: "Band School"
-            url: https://t.me/bandschool
-            rss: https://infomate.club/parsing/telegram/bandschool?only=text
-          - name: "Lit Agents"
-            url: https://t.me/litagents
-            rss: https://infomate.club/parsing/telegram/litagents?only=text
-      - name: "Медиа"
+      - name: 'Самое интересное о литературе '
+        slug: 'best_of_lit '
+        feeds: []
+      - name: СМИ и новости
         slug: media
         feeds:
-          - name: "Gorky Media"
-            url: https://t.me/gorky_media
-            rss: https://infomate.club/parsing/telegram/gorky_media?only=text
-  - name: "Персональные подборки"
+          - name: The New York Times – Books
+            url: https://www.nytimes.com/international/section/books/review
+            rss: https://rss.nytimes.com/services/xml/rss/nyt/Books.xml
+          - name: The Guardian – Books
+            url: https://www.theguardian.com/books
+            rss: https://www.theguardian.com/books/rss
+      - name: Премии
+        slug: awards
+        feeds:
+          - name: Nobel Prize (Октябрь)
+            url: https://www.nobelprize.org/
+            rss: https://www.nobelprize.org/feed/
+          - name: Премия Хьюго (Август)
+            url: https://www.thehugoawards.org/
+            rss: ' https://www.thehugoawards.org/feed/'
+          - name: Премия Небьюла (Июнь)
+            url: https://nebulas.sfwa.org/
+            rss: ' https://nebulas.sfwa.org/feed/'
+          - name: Ясная поляна (Октябрь)
+            url: https://www.yppremia.ru/
+            rss: https://kill-the-newsletter.com/feeds/5caqwrn0u9ym6hi9hfoo.xml
+      - name: Писатели (официальные сайты)
+        slug: 'writer_of    '
+        feeds: []
+      - name: Писатели (ТГ)
+        slug: writer_tg
+        feeds:
+          - name: Gregor Zamza
+            url: https://t.me/Gregor_Zamza
+            rss: https://infomate.club/parsing/telegram/Gregor_Zamza?only=text
+          - name: LiliaKimStory
+            url: https://t.me/lilia_kim_story
+            rss: https://infomate.club/parsing/telegram/lilia_kim_story?only=text
+          - name: PoPolochkamAvtoram
+            url: https://t.me/po_polochkam_avtoram
+            rss: https://infomate.club/parsing/telegram/po_polochkam_avtoram?only=text
+          - name: Lavenderaccoon
+            url: https://t.me/lavenderaccoon
+            rss: https://infomate.club/parsing/telegram/lavenderaccoon?only=text
+      - name: Книжные блогеры | Критики
+        slug: book_bloggers
+        feeds:
+          - name: Books Reviews
+            url: https://t.me/books_reviews
+            rss: https://infomate.club/parsing/telegram/books_reviews?only=text
+          - name: DrinkRead
+            url: https://t.me/drinkread
+            rss: https://infomate.club/parsing/telegram/drinkread?only=text
+          - name: LimonadBook
+            url: https://t.me/limonadbook
+            rss: https://infomate.club/parsing/telegram/limonadbook?only=text
+          - name: Milchin
+            url: https://t.me/milchin
+            rss: https://infomate.club/parsing/telegram/milchin?only=text
+          - name: ReadOriginal
+            url: https://t.me/read_original
+            rss: https://infomate.club/parsing/telegram/read_original?only=text
+          - name: StarostinFlix
+            url: https://t.me/starostinflix
+            rss: https://infomate.club/parsing/telegram/starostinflix?only=text
+          - name: Williwaw Reads
+            url: https://t.me/williwaw_reads
+            rss: https://infomate.club/parsing/telegram/williwaw_reads?only=text
+          - name: Рюмка Белинского
+            url: https://t.me/ryumka_belinskogo
+            rss: https://infomate.club/parsing/telegram/ryumka_belinskogo?only=text
+          - name: Школа критики
+            url: https://t.me/shkola_kritiki
+            rss: https://infomate.club/parsing/telegram/shkola_kritiki?only=text
+          - name: All around Eve
+            url: https://t.me/allaboutevg
+            rss: https://infomate.club/parsing/telegram/allaboutevg?only=text
+      - name: Журналы и альманахи
+        slug: journals
+        feeds:
+          - name: Moloko News
+            url: https://t.me/molokonews
+            rss: https://infomate.club/parsing/telegram/molokonews?only=text
+          - name: Юность Journal
+            url: https://t.me/unost_journal
+            rss: https://infomate.club/parsing/telegram/unost_journal?only=text
+      - name: Публицисты
+        slug: publicists
+        feeds:
+          - name: Furherring
+            url: https://t.me/furherring
+            rss: https://infomate.club/parsing/telegram/furherring?only=text
+          - name: GlebNeznaet
+            url: https://t.me/glebneznaet
+            rss: https://infomate.club/parsing/telegram/glebneznaet?only=text
+          - name: Pechat Sallyks
+            url: https://t.me/pechat_sallyks
+            rss: https://infomate.club/parsing/telegram/pechat_sallyks?only=text
+      - name: Издательства
+        slug: publishers
+        feeds:
+          - name: Alpina Proza
+            url: https://t.me/alpinaproza
+            rss: https://infomate.club/parsing/telegram/alpinaproza?only=text
+          - name: GarageMCA Shop
+            url: https://t.me/garagemca_shop
+            rss: https://infomate.club/parsing/telegram/garagemca_shop?only=text
+          - name: Ricochet Press
+            url: https://t.me/ricochetpress
+            rss: https://infomate.club/parsing/telegram/ricochetpress?only=text
+      - name: Для писателей
+        slug: writers_call
+        feeds:
+          - name: Band School
+            url: https://t.me/bandschool
+            rss: https://infomate.club/parsing/telegram/bandschool?only=text
+          - name: Lit Agents
+            url: https://t.me/litagents
+            rss: https://infomate.club/parsing/telegram/litagents?only=text
+          - name: Writers Open Call
+            url: https://t.me/writersopencall
+            rss: https://infomate.club/parsing/telegram/writersopencall?only=text
+  - name: Геймдизайн
+    slug: gamedev
+    is_visible: true
+    is_private: false
+    curator:
+      name: Геймдизайн
+      title: Все об индустрии и практике геймдизайна
+      avatar: https://i.pinimg.com/736x/59/d3/7d/59d37da40c4f008b4a67654b563575cd.jpg
+      bio: 'Подборка источников по геймдизайну: новости, обзоры, скидки, проекты и обучение.'
+    blocks:
+      - name: Общие новости
+        slug: news
+        feeds:
+          - name: GameDeveloper.com
+            url: https://www.gamedeveloper.com/
+            rss: https://www.gamedeveloper.com/
+          - name: Kotaku
+            url: https://kotaku.com/
+            rss: https://kotaku.com/
+          - name: Nordic IGN
+            url: https://nordic.ign.com/
+            rss: https://nordic.ign.com/
+          - name: Rock Paper Shotgun
+            url: https://www.rockpapershotgun.com/
+            rss: https://www.rockpapershotgun.com/
+      - name: Обзоры
+        slug: reviews
+        feeds:
+          - name: Core RPG Net
+            url: https://t.me/core_rpg_net
+            rss: https://infomate.club/parsing/telegram/core_rpg_net?only=text
+          - name: NightGameCity
+            url: https://t.me/NightGameCity
+            rss: https://infomate.club/parsing/telegram/NightGameCity?only=text
+      - name: Раздачи, скидки и подборки
+        slug: discounts
+        feeds:
+          - name: GameGiveaway
+            url: https://t.me/GameGiveaway
+            rss: https://infomate.club/parsing/telegram/GameGiveaway?only=text
+          - name: Indie Spotlight
+            url: https://t.me/indiespotlight
+            rss: https://infomate.club/parsing/telegram/indiespotlight?only=text
+      - name: Студии / проекты
+        slug: studios
+        feeds:
+          - name: CatsAndDogsEntertainment
+            url: https://t.me/catsanddogsentertainment
+            rss: https://infomate.club/parsing/telegram/catsanddogsentertainment?only=text
+          - name: DreamCraftStudio
+            url: https://t.me/dreamcraftstudio
+            rss: https://infomate.club/parsing/telegram/dreamcraftstudio?only=text
+          - name: IgryValery
+            url: https://t.me/igryvalery
+            rss: https://infomate.club/parsing/telegram/igryvalery?only=text
+      - name: Обучение
+        slug: education
+        feeds:
+          - name: JustGameDesign
+            url: https://t.me/justGameDesign
+            rss: https://infomate.club/parsing/telegram/justGameDesign?only=text
+          - name: KojimaCalls
+            url: https://t.me/kojima_calls
+            rss: https://infomate.club/parsing/telegram/kojima_calls?only=text
+          - name: ProGameDev
+            url: https://t.me/progamedev
+            rss: https://infomate.club/parsing/telegram/progamedev?only=text
+  - name: Персональные подборки
     slug: personal
     is_visible: true
     is_private: true
     curator:
-      name: "Персональные"
-      title: "Мои источники"
-      avatar: "https://i.pinimg.com/736x/c2/69/d4/c269d42001d0b84db2e11ddae765e7fa.jpg"
-      bio: "Сборник медиа, технологий, новостей и вдохновения для личного пользования"
+      name: Персональные
+      title: Мои источники
+      avatar: https://i.pinimg.com/736x/c2/69/d4/c269d42001d0b84db2e11ddae765e7fa.jpg
+      bio: Сборник медиа, технологий, новостей и вдохновения для личного пользования
     blocks:
-      - name: "Медиа"
+      - name: Медиа
         slug: personal_media
         feeds:
-          - name: "Nature"
-            url: https://www.nature.com
-            rss: https://www.nature.com/
-          - name: "Holod Media"
-            url: https://holod.media
-            rss: https://holod.media/
-          - name: "Quillette"
-            url: https://quillette.com/
-            rss: https://quillette.com/feed/
-          - name: "Hacker News"
-            url: https://news.ycombinator.com/
-            rss: https://news.ycombinator.com/rss
-          - name: "Hacker News Show"
-            url: https://news.ycombinator.com/show
-            rss: https://news.ycombinator.com/showrss
-          - name: "Indie Hackers"
-            url: https://www.indiehackers.com/
-            rss: https://www.indiehackers.com/feed
-          - name: "ExploitEx"
-            url: https://t.me/exploitex
-            rss: https://infomate.club/parsing/telegram/exploitex?only=text
-          - name: "BugFeature"
+          - name: BugFeature
             url: https://t.me/bugfeature
             rss: https://infomate.club/parsing/telegram/bugfeature?only=text
-      - name: "О том как устроены технологии"
+          - name: ExploitEx
+            url: https://t.me/exploitex
+            rss: https://infomate.club/parsing/telegram/exploitex?only=text
+          - name: Hacker News
+            url: https://news.ycombinator.com/
+            rss: https://news.ycombinator.com/rss
+          - name: Hacker News Show
+            url: https://news.ycombinator.com/show
+            rss: https://news.ycombinator.com/showrss
+          - name: Holod Media
+            url: https://holod.media
+            rss: https://holod.media/
+          - name: Indie Hackers
+            url: https://www.indiehackers.com/
+            rss: https://www.indiehackers.com/feed
+          - name: Nature
+            url: https://www.nature.com
+            rss: https://www.nature.com/
+          - name: Quillette
+            url: https://quillette.com/
+            rss: https://quillette.com/feed/
+      - name: О том как устроены технологии
         slug: tech_structure
         feeds:
-          - name: "t0digital"
-            url: https://t.me/t0digital
-            rss: https://infomate.club/parsing/telegram/t0digital?only=text
-          - name: "The Code Media"
+          - name: The Code Media
             url: https://t.me/thecodemedia
             rss: https://infomate.club/parsing/telegram/thecodemedia?only=text
-      - name: "Куда сходить (Москва)"
+          - name: t0digital
+            url: https://t.me/t0digital
+            rss: https://infomate.club/parsing/telegram/t0digital?only=text
+      - name: Куда сходить (Москва)
         slug: city_events
         feeds:
-          - name: "Playback Events"
+          - name: Playback Events
             url: https://t.me/playback_events
             rss: https://infomate.club/parsing/telegram/playback_events?only=text
-          - name: "Playback MN"
+          - name: Playback MN
             url: https://t.me/playbackMN
             rss: https://infomate.club/parsing/telegram/playbackMN?only=text
-      - name: "Экономика"
+      - name: Экономика
         slug: economics
         feeds:
-          - name: "RationalAnswer"
-            url: https://t.me/RationalAnswer
-            rss: https://infomate.club/parsing/telegram/RationalAnswer?only=text
-          - name: "Groks"
-            url: https://t.me/groks
-            rss: https://infomate.club/parsing/telegram/groks?only=text
-          - name: "CrimsonDigest"
+          - name: CrimsonDigest
             url: https://t.me/crimsondigest
             rss: https://infomate.club/parsing/telegram/crimsondigest?only=text
-      - name: "AI Safety"
+          - name: Groks
+            url: https://t.me/groks
+            rss: https://infomate.club/parsing/telegram/groks?only=text
+          - name: RationalAnswer
+            url: https://t.me/RationalAnswer
+            rss: https://infomate.club/parsing/telegram/RationalAnswer?only=text
+      - name: AI Safety
         slug: ai_safety
         feeds:
-          - name: "MikhailSamin"
-            url: https://t.me/mikhailsamin
-            rss: https://infomate.club/parsing/telegram/mikhailsamin?only=text
-          - name: "Monoid Center"
-            url: https://t.me/monoid_center
-            rss: https://infomate.club/parsing/telegram/monoid_center?only=text
-          - name: "Denissexy"
+          - name: Denissexy
             url: https://t.me/denissexy
             rss: https://infomate.club/parsing/telegram/denissexy?only=text
-      - name: "Хакатоны | Премии | Вакансии"
+          - name: MikhailSamin
+            url: https://t.me/mikhailsamin
+            rss: https://infomate.club/parsing/telegram/mikhailsamin?only=text
+          - name: Monoid Center
+            url: https://t.me/monoid_center
+            rss: https://infomate.club/parsing/telegram/monoid_center?only=text
+      - name: Хакатоны | Премии | Вакансии
         slug: hackathons
         feeds:
-          - name: "Russian Hackers Channel"
-            url: https://t.me/RussianHackers_Channel
-            rss: https://infomate.club/parsing/telegram/RussianHackers_Channel?only=text
-          - name: "TechnoTextHabr"
-            url: https://t.me/technotexthabr
-            rss: https://infomate.club/parsing/telegram/technotexthabr?only=text
-          - name: "HR Lunapark"
+          - name: HR Lunapark
             url: https://t.me/hrlunapark
             rss: https://infomate.club/parsing/telegram/hrlunapark?only=text
-      - name: "Путешествия"
+          - name: Russian Hackers Channel
+            url: https://t.me/RussianHackers_Channel
+            rss: https://infomate.club/parsing/telegram/RussianHackers_Channel?only=text
+          - name: TechnoTextHabr
+            url: https://t.me/technotexthabr
+            rss: https://infomate.club/parsing/telegram/technotexthabr?only=text
+      - name: Путешествия
         slug: travel
         feeds:
-          - name: "Kyrillic"
+          - name: Kyrillic
             url: https://t.me/kyrillic
             rss: https://infomate.club/parsing/telegram/kyrillic?only=text
-      - name: "Прочее"
+      - name: Прочее
         slug: misc
         feeds:
-          - name: "Anthro Fun"
+          - name: Anthro Fun
             url: https://t.me/anthro_fun
             rss: https://infomate.club/parsing/telegram/anthro_fun?only=text
-          - name: "Avva Blog"
+          - name: Avva Blog
             url: https://t.me/avvablog
             rss: https://infomate.club/parsing/telegram/avvablog?only=text
-  - name: "Продуктивность"
+  - name: Продуктивность
     slug: productivity
     is_visible: true
     is_private: false
     curator:
-      name: "Продуктивность"
-      title: "Инструменты и ссылки для продуктивности"
-      avatar: "https://i.pinimg.com/736x/e7/24/f6/e724f6001f92f9ca9fe8ab6c09918000.jpg"
-      bio: "Zettelkasten и разное интересное для повышения эффективности"
+      name: Продуктивность
+      title: Инструменты и ссылки для продуктивности
+      avatar: https://i.pinimg.com/736x/e7/24/f6/e724f6001f92f9ca9fe8ab6c09918000.jpg
+      bio: Zettelkasten и разное интересное для повышения эффективности
     blocks:
-      - name: "Zettelkasten"
+      - name: Zettelkasten
         slug: zettelkasten
         feeds:
-          - name: "Zettelkasten"
-            url:  https://t.me/fedorovpishet2
-            rss:  https://infomate.club/parsing/telegram/fedorovpishet2?only=text
-      - name: "Разное интересное"
+          - name: Zettelkasten
+            url: https://t.me/fedorovpishet2
+            rss: https://infomate.club/parsing/telegram/fedorovpishet2?only=text
+      - name: Разное интересное
         slug: miscellaneous
         feeds:
-          - name: "TandP"
-            url:  https://t.me/tandp_ru
-            rss:  https://infomate.club/parsing/telegram/tandp_ru?only=text
-          - name: "MikhailIvanov78"
-            url:  https://t.me/mikhail_ivanov78
-            rss:  https://infomate.club/parsing/telegram/mikhail_ivanov78?only=text
-          - name: "LaVidaLocals"
-            url:  https://t.me/lavidalocals
-            rss:  https://infomate.club/parsing/telegram/lavidalocals?only=text
-          - name: "KaterinaLengold"
-            url:  https://t.me/Katerinalengold
-            rss:  https://infomate.club/parsing/telegram/Katerinalengold?only=text
-          - name: "SergeXXI"
-            url:  https://t.me/SergeXXI
-            rss:  https://infomate.club/parsing/telegram/SergeXXI?only=text
-          - name: "ProductWeekdays"
-            url:  https://t.me/product_weekdays
-            rss:  https://infomate.club/parsing/telegram/product_weekdays?only=text
-          - name: "MustReads"
-            url:  https://t.me/mustreads
-            rss:  https://infomate.club/parsing/telegram/mustreads?only=text
-          - name: "MindRise"
-            url:  https://t.me/mind_rise/
-            rss:  https://infomate.club/parsing/telegram/mind_rise?only=text
-          - name: "Temno"
-            url:  https://t.me/temno
-            rss:  https://infomate.club/parsing/telegram/temno?only=text
-          - name: "ProductDo"
-            url:  https://t.me/productdo
-            rss:  https://infomate.club/parsing/telegram/productdo?only=text
-          - name: "CGEvent"
-            url:  https://t.me/cgevent
-            rss:  https://infomate.club/parsing/telegram/cgevent?only=text
-          - name: "ItsCaptain"
-            url:  https://t.me/its_capitan
-            rss:  https://infomate.club/parsing/telegram/its_capitan?only=text
-          - name: "Zettelkasten.de"
-            url:  https://zettelkasten.de/posts/
-            rss:  https://zettelkasten.de/posts/
-
-  - name: "Рациональность и мышление"
+          - name: CGEvent
+            url: https://t.me/cgevent
+            rss: https://infomate.club/parsing/telegram/cgevent?only=text
+          - name: ItsCaptain
+            url: https://t.me/its_capitan
+            rss: https://infomate.club/parsing/telegram/its_capitan?only=text
+          - name: KaterinaLengold
+            url: https://t.me/Katerinalengold
+            rss: https://infomate.club/parsing/telegram/Katerinalengold?only=text
+          - name: LaVidaLocals
+            url: https://t.me/lavidalocals
+            rss: https://infomate.club/parsing/telegram/lavidalocals?only=text
+          - name: MikhailIvanov78
+            url: https://t.me/mikhail_ivanov78
+            rss: https://infomate.club/parsing/telegram/mikhail_ivanov78?only=text
+          - name: MindRise
+            url: https://t.me/mind_rise/
+            rss: https://infomate.club/parsing/telegram/mind_rise?only=text
+          - name: MustReads
+            url: https://t.me/mustreads
+            rss: https://infomate.club/parsing/telegram/mustreads?only=text
+          - name: ProductDo
+            url: https://t.me/productdo
+            rss: https://infomate.club/parsing/telegram/productdo?only=text
+          - name: ProductWeekdays
+            url: https://t.me/product_weekdays
+            rss: https://infomate.club/parsing/telegram/product_weekdays?only=text
+          - name: SergeXXI
+            url: https://t.me/SergeXXI
+            rss: https://infomate.club/parsing/telegram/SergeXXI?only=text
+          - name: TandP
+            url: https://t.me/tandp_ru
+            rss: https://infomate.club/parsing/telegram/tandp_ru?only=text
+          - name: Temno
+            url: https://t.me/temno
+            rss: https://infomate.club/parsing/telegram/temno?only=text
+          - name: Zettelkasten.de
+            url: https://zettelkasten.de/posts/
+            rss: https://zettelkasten.de/posts/
+  - name: Рациональность и мышление
     slug: rationality
     is_visible: true
     is_private: false
     curator:
-      name: "Рациональность и мышление"
-      title: "Ресурсы по философии, психологии и мыслям"
-      avatar: "https://i.pinimg.com/736x/98/78/1b/98781bdaa28eafb4d3c6ed7b382514bc.jpg"
-      bio: "Собрание материалов по рациональности, психологии и философии"
+      name: Рациональность и мышление
+      title: Ресурсы по философии, психологии и мыслям
+      avatar: https://i.pinimg.com/736x/98/78/1b/98781bdaa28eafb4d3c6ed7b382514bc.jpg
+      bio: Собрание материалов по рациональности, психологии и философии
     blocks:
-      - name: "Все источники"
+      - name: Все источники
         slug: all
         feeds:
-          - name: "Overcoming Bias"
-            url: https://www.overcomingbias.com/
-            rss: https://www.overcomingbias.com/
-          - name: "Open Culture"
-            url: https://www.openculture.com/2024/08/how-the-oldest-company-in-the-world-has-survived-nearly-1500-years.html
-            rss: https://www.openculture.com/2024/08/how-the-oldest-company-in-the-world-has-survived-nearly-1500-years.html
-          - name: "Чернопсы"
-            url: https://t.me/chernopsy
-            rss: https://infomate.club/parsing/telegram/chernopsy?only=text
-          - name: "LessWrong"
-            url: https://www.lesswrong.com
-            rss: https://www.lesswrong.com/
-          - name: "IFS.RU"
+          - name: IFS.RU
             url: https://t.me/ifsru
             rss: https://infomate.club/parsing/telegram/ifsru?only=text
-          - name: "Thoughts & Algorithms"
+          - name: LessWrong
+            url: https://www.lesswrong.com
+            rss: https://www.lesswrong.com/
+          - name: Open Culture
+            url: https://www.openculture.com/2024/08/how-the-oldest-company-in-the-world-has-survived-nearly-1500-years.html
+            rss: https://www.openculture.com/2024/08/how-the-oldest-company-in-the-world-has-survived-nearly-1500-years.html
+          - name: Overcoming Bias
+            url: https://www.overcomingbias.com/
+            rss: https://www.overcomingbias.com/
+          - name: Thoughts & Algorithms
             url: https://t.me/thoughts_and_algorithms
             rss: https://infomate.club/parsing/telegram/thoughts_and_algorithms?only=text
-
-  - name: "Мастера"
+          - name: Чернопсы
+            url: https://t.me/chernopsy
+            rss: https://infomate.club/parsing/telegram/chernopsy?only=text
+  - name: Мастера
     slug: masters
     is_visible: true
     is_private: false
     curator:
-      name: "Мастера"
-      title: "Авторы и эксперты, за которыми я слежу"
-      avatar: "https://i.pinimg.com/736x/bd/c6/b9/bdc6b987348757f81630ec69d0dd0ec8.jpg"
-      bio: "Люди, которые делают удивительные вещи в своих областях"
+      name: Мастера
+      title: Авторы и эксперты, за которыми я слежу
+      avatar: https://i.pinimg.com/736x/bd/c6/b9/bdc6b987348757f81630ec69d0dd0ec8.jpg
+      bio: Люди, которые делают удивительные вещи в своих областях
     blocks:
-      - name: "Личные мастера"
+      - name: Личные мастера
         slug: personal_masters
         feeds:
-          - name: "sciscent"
-            url: https://t.me/sciscent
-            rss: https://infomate.club/parsing/telegram/sciscent?only=text
-          - name: "talkingcomics"
-            url: https://t.me/talkingcomics
-            rss: https://infomate.club/parsing/telegram/talkingcomics?only=text
-          - name: "anton_yaitsky"
-            url: https://t.me/anton_yaitsky
-            rss: https://infomate.club/parsing/telegram/anton_yaitsky?only=text
-          - name: "data_csv"
-            url: https://t.me/data_csv
-            rss: https://infomate.club/parsing/telegram/data_csv?only=text
-          - name: "BOO_n_K_er"
+          - name: BOO_n_K_er
             url: https://t.me/BOO_n_K_er
             rss: https://infomate.club/parsing/telegram/BOO_n_K_er?only=text
-          - name: "Realifeeeeeee"
-            url: https://t.me/Realifeeeeeee
-            rss: https://infomate.club/parsing/telegram/Realifeeeeeee?only=text
-          - name: "Dacookersminds"
+          - name: Dacookersminds
             url: https://t.me/Dacookersminds
             rss: https://infomate.club/parsing/telegram/Dacookersminds?only=text
+          - name: Realifeeeeeee
+            url: https://t.me/Realifeeeeeee
+            rss: https://infomate.club/parsing/telegram/Realifeeeeeee?only=text
+          - name: anton_yaitsky
+            url: https://t.me/anton_yaitsky
+            rss: https://infomate.club/parsing/telegram/anton_yaitsky?only=text
+          - name: data_csv
+            url: https://t.me/data_csv
+            rss: https://infomate.club/parsing/telegram/data_csv?only=text
+          - name: sciscent
+            url: https://t.me/sciscent
+            rss: https://infomate.club/parsing/telegram/sciscent?only=text
+          - name: talkingcomics
+            url: https://t.me/talkingcomics
+            rss: https://infomate.club/parsing/telegram/talkingcomics?only=text
